@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd00982ca902c04da0376708496678d, type: 3}
+  m_Name: Craft_DiamonSword
+  m_EditorClassIdentifier: Assembly-CSharp::GameInventory.CraftRecipe
+  ingredients:
+  - item: {fileID: 11400000, guid: a8efd3c4bd9cdad4cb12a130c10c1168, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a8efd3c4bd9cdad4cb12a130c10c1168, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a8efd3c4bd9cdad4cb12a130c10c1168, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a8efd3c4bd9cdad4cb12a130c10c1168, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: df8874e46f46bed48b25b8e0bb8e4264, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a8efd3c4bd9cdad4cb12a130c10c1168, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 4d17ad3c8396212499a9f3f57a6c2ca6, type: 2}
+    amount: 8
+  - item: {fileID: 11400000, guid: 90508052d63016746b482b1e4478cd67, type: 2}
+    amount: 16
+  - item: {fileID: 11400000, guid: 4d17ad3c8396212499a9f3f57a6c2ca6, type: 2}
+    amount: 8
+  outputItem: {fileID: 11400000, guid: 5fdea0a5022b8f74d95c64fd86750731, type: 2}
+  outputAmount: 1

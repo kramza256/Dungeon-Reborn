@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8346181167156248414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6048402079446832254}
+  - component: {fileID: 6028353466802260845}
+  - component: {fileID: 824538041770813326}
+  - component: {fileID: 6964049627878984807}
+  - component: {fileID: 5358222978491175546}
+  - component: {fileID: 2779694453232295393}
+  - component: {fileID: 2171921752479524975}
+  m_Layer: 0
+  m_Name: Barrel_C (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6048402079446832254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000002160039, y: -0.15240629, z: 0.0000000033309466, w: 0.9883179}
+  m_LocalPosition: {x: 16.565666, y: 1.1532893, z: 13.346656}
+  m_LocalScale: {x: 1.1326, y: 1.1326, z: 1.1326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -377.532, z: 0}
+--- !u!33 &6028353466802260845
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  m_Mesh: {fileID: -5282377409767143930, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
+--- !u!23 &824538041770813326
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ca32cada060cf774dbd29b2f3410086a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6964049627878984807
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5282377409767143930, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
+--- !u!65 &5358222978491175546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7768439, y: 0.8524854, z: 0.776844}
+  m_Center: {x: 0.000026747584, y: 0.42585593, z: 0.000025883317}
+--- !u!114 &2779694453232295393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd1955707f3bfa4287b23929e2fb779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestructibleProp
+  _maxHealth: 1
+  destroyEffect: {fileID: 0}
+  itemPickupPrefab: {fileID: 5200681163900939743, guid: 6d74876d99d459743af39429f3ef69b5, type: 3}
+  lootTable:
+  - item: {fileID: 11400000, guid: 90508052d63016746b482b1e4478cd67, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 4d17ad3c8396212499a9f3f57a6c2ca6, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 50fbbb720118d23418d3e68b7d0d57a8, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: cd38a2b3c457c584e9ab675906c5d841, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 160efdd23c8ea9049a8c529eeddf5ab8, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: a8efd3c4bd9cdad4cb12a130c10c1168, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 4e185b2fcb35d0b48a80c54c269267e1, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 8fb2c1931632ee34b855db6451680b5f, type: 2}
+    amount: 0
+    dropChance: 0
+  - item: {fileID: 11400000, guid: dd3b3e804cbd0364cbbdc0ff3ef8852a, type: 2}
+    amount: 0
+    dropChance: 0
+  dropForce: 5
+--- !u!114 &2171921752479524975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346181167156248414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd1955707f3bfa4287b23929e2fb779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestructibleProp
+  _maxHealth: 1
+  destroyEffect: {fileID: 0}
+  itemPickupPrefab: {fileID: 1571580732593700021, guid: d3ad68f293dda8d48afd6f38c716b12c, type: 3}
+  lootTable:
+  - item: {fileID: 11400000, guid: 3806ef8ca17c63b46a8836a28f1231bf, type: 2}
+    amount: 1
+    dropChance: 100
+  dropForce: 5

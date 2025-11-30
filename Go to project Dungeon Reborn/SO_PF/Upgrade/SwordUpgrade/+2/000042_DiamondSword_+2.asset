@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25132bc0e55d5bd4086c728610e87101, type: 3}
+  m_Name: 000042_DiamondSword_+2
+  m_EditorClassIdentifier: Assembly-CSharp::GameInventory.SO_Item
+  inputEquipment: {fileID: 11400000, guid: b134ec679d711554a9cad820f8e52b53, type: 2}
+  upgradeMaterial: {fileID: 11400000, guid: dd3b3e804cbd0364cbbdc0ff3ef8852a, type: 2}
+  successOutput: {fileID: 11400000, guid: b37ee09f843607f4783dd30a03784c1f, type: 2}
+  successChance: 50
+  materialCost: 20
+  breakOnFail: 0
+  failOutput: {fileID: 0}

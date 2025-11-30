@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f31230994445d34b9f502647b97fe05, type: 3}
+  m_Name: New Skill
+  m_EditorClassIdentifier: Assembly-CSharp::SO_Skill
+  skillName: AT
+  icon: {fileID: 21300000, guid: 4101f9bdd302d04498e71a8ba0316198, type: 3}
+  cooldown: 5
+  staminaCost: 10
+  type: 2
+  value: 0
+  effectPrefab: {fileID: 100002, guid: f63523b97f3ae744b80a1e6ff09a4759, type: 3}

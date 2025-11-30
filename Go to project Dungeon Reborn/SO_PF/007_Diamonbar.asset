@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a383f5b8c8889844bada5a879f1b87bc, type: 3}
+  m_Name: 007_Diamonbar
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: d9f0acf4281bde44dbde5648e53af73e, type: 3}
+  id: 007
+  itemName: DiamonBar
+  description: 
+  maxStack: 32
+  gamePrefab: {fileID: 3976131524749238292, guid: 47e762370a7cd05469b02c110320b684, type: 3}
+  upgradeLevel: 0
+  itemType: 3
+  attackDamage: 0
+  attackRange: 1.5
+  attackDelay: 1

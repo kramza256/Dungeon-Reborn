@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9091464853208101655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5233063417299872304, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 878972249541682487, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 160efdd23c8ea9049a8c529eeddf5ab8,
+        type: 2}
+    - target: {fileID: 878972249541682487, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: amountText
+      value: 
+      objectReference: {fileID: 8057198278929799449}
+    - target: {fileID: 1057741338675316323, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_Name
+      value: Diamon PF
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057741338675316323, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.1788213
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2823906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436418435088978149, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678607433358551131, guid: 80252b194dd69dc44a7229fe1052d0e2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7dda965da3e65b749bd027d982730829, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80252b194dd69dc44a7229fe1052d0e2, type: 3}
+--- !u!114 &8057198278929799449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1295827473951697422, guid: 80252b194dd69dc44a7229fe1052d0e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 9091464853208101655}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
